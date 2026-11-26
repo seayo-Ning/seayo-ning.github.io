@@ -24,7 +24,6 @@ My research interests focus on **deep learning-based intelligent fault diagnosis
 
 <div class="scrollable-area">
   <ul>
-    <li class="news-item"><span class="news-date">2026.11</span><span class="news-body">🌐 Launched my personal academic homepage on GitHub Pages!</span></li>
     <li class="news-item"><span class="news-date">2026.09</span><span class="news-body">🔬 Entered my 2nd year of graduate study, focusing on generalized &amp; cross-condition deep fault diagnosis.</span></li>
     <li class="news-item"><span class="news-date">2025.09</span><span class="news-body">🎓 Enrolled as an M.S. student in Mechanical Engineering at <a href="https://www.gxu.edu.cn/">Guangxi University</a>, Nanning 🇨🇳.</span></li>
   </ul>
