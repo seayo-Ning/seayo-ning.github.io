@@ -1,0 +1,149 @@
+# Site Settings
+title                    : "Boning Wu (吴博宁)"
+description              : "wbn0826@qq.com"
+repository               : "seayo-Ning/seayo-ning.github.io"
+google_scholar_stats_use_cdn : true
+
+# Google Analytics (可选)
+google_analytics_id      :
+
+# SEO Related (可选)
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
+
+# Site Author (左侧边栏个人信息，留空的项会自动隐藏)
+author:
+  name             : "Boning Wu"
+  avatar           : "images/profile.png"
+  bio              : "M.S. Student @ GXU"
+  location         : "Nanning, China"
+  employer         : "Guangxi University"
+  pubmed           :
+  googlescholar    : # 例如: "https://scholar.google.com/citations?user=你的ID"
+  email            : "wbn0826@qq.com"
+  wechat_qr        : # 例如: "images/wechat.jpg" (把微信二维码放进 images/ 后取消注释即可悬浮展示)
+  researchgate     :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "seayo-Ning"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      :
+  lastfm           :
+  linkedin         :
+  dblp             :
+  orcid            : # 例如: "https://orcid.org/0000-0000-0000-0000"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - package.json
+  - node_modules
+  - Rakefile
+  - tmp
+  - run_server.sh
+  - scripts
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

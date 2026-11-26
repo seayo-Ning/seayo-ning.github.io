@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#F3F6FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1A237E" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+  <rect width="640" height="320" rx="12" fill="url(#bg2)" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="320" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#283593" text-anchor="middle">Cross-Condition &amp; Generalized Zero-Shot Fault Diagnosis</text>
+
+  <!-- Seen Domain Box -->
+  <g filter="url(#cardShadow)">
+    <rect x="34" y="64" width="210" height="214" rx="10" fill="#FFFFFF" stroke="#C5CAE9" stroke-width="1.5"/>
+    <text x="139" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#3949AB" text-anchor="middle">Seen Fault Conditions</text>
+    <circle cx="92" cy="144" r="22" fill="#E8EAF6" stroke="#5C6BC0" stroke-width="1.5"/>
+    <circle cx="86" cy="139" r="4" fill="#3949AB"/><circle cx="98" cy="148" r="4" fill="#3949AB"/><circle cx="90" cy="151" r="4" fill="#3949AB"/>
+    <circle cx="176" cy="144" r="22" fill="#E3F2FD" stroke="#42A5F5" stroke-width="1.5"/>
+    <circle cx="171" cy="140" r="4" fill="#1E88E5"/><circle cx="183" cy="146" r="4" fill="#1E88E5"/><circle cx="175" cy="152" r="4" fill="#1E88E5"/>
+    <rect x="56" y="190" width="166" height="64" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="139" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#334155" text-anchor="middle">Labeled Vibration Samples</text>
+    <text x="139" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#64748B" text-anchor="middle">Varying Speeds &amp; Loads</text>
+  </g>
+
+  <!-- Knowledge Bridge -->
+  <g filter="url(#cardShadow)">
+    <rect x="268" y="106" width="104" height="130" rx="10" fill="#3949AB"/>
+    <text x="320" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Semantic &amp;</text>
+    <text x="320" y="166" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Feature</text>
+    <text x="320" y="186" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Transfer</text>
+    <text x="320" y="214" font-family="Consolas, monospace" font-size="10" fill="#C5CAE9" text-anchor="middle"> Knowledge Bridge </text>
+  </g>
+  <path d="M248 171 L264 171" stroke="#3949AB" stroke-width="2.5"/>
+  <path d="M376 171 L392 171" stroke="#F29900" stroke-width="2.5"/>
+
+  <!-- Unseen / Target Domain Box -->
+  <g filter="url(#cardShadow)">
+    <rect x="396" y="64" width="210" height="214" rx="10" fill="#FFFFFF" stroke="#FFE0B2" stroke-width="1.5"/>
+    <text x="501" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E65100" text-anchor="middle">Target / Unseen Faults</text>
+    <circle cx="458" cy="144" r="22" fill="#FFF3E0" stroke="#FB8C00" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <polygon points="458,134 464,148 452,148" fill="#EF6C00"/>
+    <circle cx="542" cy="144" r="22" fill="#FCE8E6" stroke="#E53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <rect x="536" y="138" width="12" height="12" rx="2" fill="#D32F2F"/>
+    <rect x="418" y="190" width="166" height="64" rx="8" fill="#FFFBF5" stroke="#FDE68A"/>
+    <text x="501" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9A3412" text-anchor="middle">Data-Scarce / New Regimes</text>
+    <text x="501" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#B45309" text-anchor="middle">Robust Fault Identification</text>
+  </g>
+</svg>

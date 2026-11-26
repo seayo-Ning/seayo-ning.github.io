@@ -1,0 +1,16 @@
+# Top navigation bar links
+main:
+  - title: "About Me"
+    url: "/#about-me"
+
+  - title: "News"
+    url: "/#news"
+
+  - title: "Research"
+    url: "/#research"
+
+  - title: "Educations"
+    url: "/#educations"
+
+  - title: "Honors & Skills"
+    url: "/#honors"
