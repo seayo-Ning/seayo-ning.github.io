@@ -73,9 +73,6 @@ Investigating semantic-guided feature alignment and generative/transfer learning
 # 📖 Educations
 
 - *2025.09 - Present*: **M.S. Student** in Mechanical Engineering, School of Mechanical Engineering, **Guangxi University**, Nanning, China.
-<!-- 可在此补充你的本科学校信息，例如：
-- *2021.09 - 2025.06*: **B.Eng.** in Mechanical Engineering, **Your Undergraduate University**, China.
--->
 
 <span class='anchor' id='honors'></span>
 
@@ -87,6 +84,3 @@ Investigating semantic-guided feature alignment and generative/transfer learning
 
 ### Honors & Scholarships
 - *2025 - 2026*: Graduate Academic Scholarship, Guangxi University.
-<!-- 可在此随时按格式添加你的其他奖项，例如：
-- *2024*: Meritorious Award / First Prize in XXX Competition.
--->
